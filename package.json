@@ -1,12 +1,12 @@
 {
-  "name": "heroku-env",
-  "version": "0.0.1",
+  "name": "hero-envy",
+  "version": "0.1.0",
   "description": "Configure a Heroku environment from a file",
   "main": "index.js",
   "bin": {
-    "herokuenv": "./index.js"
+    "heroenvy": "./index.js"
   },
-  "repository": "https://github.com/prashtx/heroku-env.git",
+  "repository": "https://github.com/prashtx/hero-envy.git",
   "author": "Prashant Singh",
   "license": "BSD",
   "dependencies": {
