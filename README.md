@@ -1,4 +1,4 @@
-heroku-env
+hero-envy
 ==========
 
 Configure a Heroku environment from a file
@@ -11,21 +11,21 @@ By default, the tool gets the app name from the environment file name. So you ca
 
 ## Installation
 
-Install with `npm install heroku-env -g`.
+Install with `npm install hero-envy -g`.
 
 ## Usage
 
 The basic form takes an environment file to read:
 
-    $ herokuenv my-app-dev.env
+    $ heroenvy my-app-dev.env
 
 You can override the app name:
 
-    $ herokuenv be-careful-with-production.env --app my-app-production
+    $ heroenvy be-careful-with-production.env --app my-app-production
 
 You can specify an account:
 
-    $ herokuenv my-app-dev.env --account personal
+    $ heroenvy my-app-dev.env --account personal
 
 ## Sample environment file
 
