@@ -4,7 +4,7 @@
   "description": "Configure a Heroku environment from a file",
   "main": "index.js",
   "bin": {
-    "envrun": "./index.js"
+    "herokuenv": "./index.js"
   },
   "repository": "https://github.com/prashtx/heroku-env.git",
   "author": "Prashant Singh",
