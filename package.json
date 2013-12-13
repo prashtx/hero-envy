@@ -1,0 +1,17 @@
+{
+  "name": "heroku-env",
+  "version": "0.0.1",
+  "description": "Configure a Heroku environment from a file",
+  "main": "index.js",
+  "bin": {
+    "envrun": "./index.js"
+  },
+  "repository": "https://github.com/prashtx/heroku-env.git",
+  "author": "Prashant Singh",
+  "license": "BSD",
+  "dependencies": {
+    "optimist": "~0.5.2",
+    "request": "~2.30.0",
+    "async": "~0.2.9"
+  }
+}
